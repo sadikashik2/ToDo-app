@@ -63,7 +63,7 @@ const ToDo = () => {
    },[todolist])
 
   return (
-    <div className="bg-white place-self-center w-11/12 max-w-md min-h-[550px] p-7 rounded-2xl flex flex-col">
+    <div className="bg-stone-300 place-self-center w-md max-w-11/12 min-h-[550px] p-7 rounded-2xl flex flex-col">
       {/* ----------title-------- */}
 
       <div className="flex items-center mt-7 gap-2" onClick={()=>{toggle(id)}}>
@@ -85,9 +85,9 @@ const ToDo = () => {
         />
         <button
           onClick={add}
-          className="bg-orange-400 h-14 w-32 rounded-full text-white cursor-pointer border-none text-lg font-medium hover:bg-orange-600"
+          className="bg-gray-400 h-14 w-32 rounded-full text-white cursor-pointer border-none text-lg font-medium hover:bg-gray-500 hover: border-2 hover:border-solid"
         >
-          ADD +
+          Add +
         </button>
       </div>
 

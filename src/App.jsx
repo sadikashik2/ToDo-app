@@ -3,7 +3,7 @@ import ToDo from './components/ToDo'
 
 const App = () => {
   return (
-    <div className='bg-stone-900 min-h-screen min-w-md py-4 grid'>
+    <div className='bg-stone-500 min-h-screen min-w-screen py-3 flex justify-center items-center'>
         <ToDo></ToDo>
     </div>
   )
