@@ -10,14 +10,14 @@
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background-color: #c1c1c1; /* soft gray */
+  background-color: #8d8d8d; /* soft gray */
   border-radius: 10px;
   border: 2px solid #f0f0f0; /* gives padding effect */
   transition: background-color 0.3s;
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background-color: #a8a8a8; /* darken on hover */
+  background-color: #5c5c5c; /* darken on hover */
 }
 
 
