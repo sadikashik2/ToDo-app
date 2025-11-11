@@ -1,34 +1,25 @@
-To-Do App 📝
+# Todo App
 
-A simple, responsive To-Do List application built with React, Vite, and Tailwind CSS. Users can add, edit, delete, and mark tasks as complete. Tasks are persisted in browser local storage.
+A simple and interactive todo application built with **React** and **Tailwind CSS**, allowing users to add, edit, delete, and manage tasks efficiently.
 
-🔗 Live Demo
+---
+**Live Demo:** https://sadikashik2.github.io/ToDo-app/
 
+## Features
 
-📂 Features
+- **Add Tasks**  
+- **Edit Tasks**  
+- **Delete Tasks**  
+- **Mark Tasks as Complete**  
+- **Persistent Storage**  
+  Tasks are saved in **local storage**, so data remains after page reload.
+- **Scrollable Task List**  
+  Scrollable view when tasks exceed the visible area.
 
-Add new tasks
+---
 
-Edit existing tasks
+## Technologies Used
 
-Delete tasks
-
-Mark tasks as complete/incomplete
-
-Persist tasks in browser local storage
-
-Keyboard support: Press Enter to add a task
-
-Fully responsive: Works on desktop, tablet, and mobile
-
-Smooth and interactive UI with hover effects
-
-🛠 Technologies
-
-React – UI library for building components
-
-Vite – Fast development build tool
-
-Tailwind CSS – Utility-first CSS framework
-
-Local Storage – Persisting tasks across sessions
+- **React**  
+- **Tailwind CSS**   
+- **Local Storage** – To persist tasks
